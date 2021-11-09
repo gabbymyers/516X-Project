@@ -29,4 +29,6 @@ Here's a view of how the plots are oriented:
 
 ![plots labeled from above](/assets/img/image.png "Nashua Plot Map")
 
+
+<img src="/assets/img/image.png" alt="Nashua Plot Map" style="height: 200px; width:200px;"/>
 Each plot is 1 acre. 
