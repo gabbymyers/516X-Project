@@ -25,5 +25,6 @@ Here's a summary of the treatments in 2021:
 | 6 | Fall Manure | Soy <br /> Corn | 20, 2, 16 <br /> 31, 14, 25| No-till | 0 <br /> 150 |
 
 
-
+Here's a view of how the plots are oriented
+![plots labeled from above](/assets/img/image.png "Nashua Plot Map")
 
