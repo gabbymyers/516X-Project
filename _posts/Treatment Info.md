@@ -18,10 +18,8 @@ Here's a useless table:
 
 | System | Application Timings and Souce of N | Crop in 2021 | Plot | Tillage | N Rate (lb/ac) |
 | :------ |:--- | :--- | :--- |:--- |:--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+| 1 | Spring UAN | Soybean < br /> Corn | 29, 10, 15 < br /> 28, 3, 24 | No-till | 0 < br /> 150 |
+
 
 
 How about a yummy crepe?
