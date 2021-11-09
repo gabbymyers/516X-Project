@@ -1,9 +1,8 @@
 ---
 layout: page
-title: About the data
-
+title: About the Project
+suptitle: Field trials to evaluate N export from perennial groundcover corn systems 
 ---
 
-The data used in this project was collected during the 2021 growing season in Nashua Iowa.
 
 
