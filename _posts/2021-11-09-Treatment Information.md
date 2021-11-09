@@ -7,7 +7,7 @@ gh-badge: [star, fork, follow]
 # tags: [test]
 comments: true
 ---
-This project has 8 distinct treatments. 
+This project has 8 distinct treatments.
 
 ## 2021 Treatment table
 
