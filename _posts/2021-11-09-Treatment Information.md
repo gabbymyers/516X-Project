@@ -2,10 +2,7 @@
 layout: post
 title: Treatment Information
 subtitle: Details about treatments studied in field trial
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-# tags: [test]
-comments: true
+thumbnail-img: /assets/img/plot 5.PNG
 ---
 This project has 8 distinct treatments.
 
