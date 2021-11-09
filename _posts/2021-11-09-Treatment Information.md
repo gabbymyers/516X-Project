@@ -14,7 +14,7 @@ comments: true
 Here's a summary of the treatments in 2021:
 
 | System | Application Timings and Souce of N | Crop in 2021 | Plot | Tillage | N Rate (lb/ac) |
-| :------: |:---: | :---: | :---: |:---: |:---: |
+| :------: |:---: | :---: | :-----: |:---: |:---: |
 | 1 | Spring UAN | Soybean <br /> Corn | 29, 10, 15 <br /> 28, 3, 24 | No-till | 0 <br /> 150 |
 | 2 | Spring Manure | Soybean <br /> Corn | 30, 1, 17 <br /> 27, 11, 23 | No-till | 0 <br /> 150 |
 | 3.1 | Fall Manure | Continuous Corn | 18, 4, 33 | Strip-till | 200 |
