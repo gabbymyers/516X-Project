@@ -27,8 +27,6 @@ Here's a summary of the treatments in 2021:
 
 Here's a view of how the plots are oriented:
 
-![plots labeled from above](/assets/img/image.png "Nashua Plot Map")
+<img src="/assets/img/image.png" alt="Nashua Plot Map" class = "center" style="height: 500px; width:500px;"/>
 
-
-<img src="/assets/img/image.png" alt="Nashua Plot Map" style="height: 500px; width:500px;"/>
 Each plot is 1 acre. 
