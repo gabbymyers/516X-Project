@@ -3,6 +3,8 @@ layout: post
 title: Treatment Information
 subtitle: Details about treatments studied in field trial
 thumbnail-img: /assets/img/plot 5.PNG
+
+
 ---
 This project has 8 distinct treatments. In treatments 1, 2, 5, and 6, plots will alternate between corn and soybeans in alternating years. 
 
