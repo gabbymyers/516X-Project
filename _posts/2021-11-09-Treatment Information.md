@@ -6,7 +6,7 @@ thumbnail-img: /assets/img/plot 5.PNG
 
 
 ---
-This project has 8 distinct treatments. In treatments 1, 2, 5, and 6, plots will alternate between corn and soybeans every other year. The crop growing in plots of those treatments is denoted by "1S", "1C", etc. 
+This project has 8 distinct treatments. In treatments 1, 2, 5, and 6, plots will alternate between corn and soybeans every other year. The crop growing in plots of those treatments is denoted in the data files by "1S", "1C", etc. 
 
 ## 2021 Treatment table
 
