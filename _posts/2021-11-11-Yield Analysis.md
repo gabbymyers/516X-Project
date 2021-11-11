@@ -55,3 +55,5 @@ plt.savefig('soy_yield_box.jpg', bbox_inches='tight')
 
 **Full Notebook**     
 [Link to Yield Analysis Jupyter Notebook](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_posts/Yield%20Analysis.ipynb)
+
+https://github.com/gabbymyers/516X-Project/blob/master/_posts/Yield%20Analysis.ipynb 
