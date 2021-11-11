@@ -4,7 +4,7 @@ title: Yield Analysis
 subtitle: 2021 Yield Analysis 
 comments: true
 ---
-**Link to Jupyter Notebook at the end of this post**     
+Link to Jupyter Notebook at the end of this post.   
 
 The 2021 yield data from all of the treatments is housed in an excel file called "2021 Yield". 
 
@@ -44,6 +44,14 @@ plt.savefig('corn_yield_box.jpg', bbox_inches='tight')
 |CS + R|Corn/Soy Rotation with Cereal Rye Cover Crop|
 |CC + 60ISC |Continuous Corn with 60 inch rows and Interseeded Cover Crop|
 |CS, FM|Corn/Soy Rotation with Fall Manure|
+
+~~~
+ax = sns.boxplot(x = "Treatment", y = "Yield (avg; bu/ac)", data = soy_only, hue = 'Short Trt Description', dodge = False)
+plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+plt.savefig('soy_yield_box.jpg', bbox_inches='tight')
+~~~
+
+![Box plot of soy yield by treatment](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/_posts/soy_yield_box.jpg)
 
 **Full Notebook**     
 [Link to Yield Analysis Jupyter Notebook](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_posts/Yield%20Analysis.ipynb)
