@@ -5,6 +5,7 @@ subtitle: 2021 Yield Analysis
 comments: true
 ---
 
+The 2021 yield data from all of the treatments is housed in an excel file called "2021 Yield". 
 
 **Importing the data**
 ~~~
@@ -29,29 +30,3 @@ corn_only.head()
 ~~~
 ![boxplot of yield by treatment, only corn](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/_posts/corn_yield_box.png)
 
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
