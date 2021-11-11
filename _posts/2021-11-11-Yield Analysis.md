@@ -35,6 +35,17 @@ plt.savefig('corn_yield_box.jpg', bbox_inches='tight')
 ~~~
 ![box plot of yield by treatment, corn only](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/_posts/corn_yield_box.jpg)
 
+Legend Explanation
+|Code|Explanation|
+|:---|:---:|
+|CS, SUAN|Corn/Soy Rotation with Spring UAN|
+|CC|Continuous Corn|
+|CC + PGC |Continuous Corn with Perennial Groundcover|
+|CC + 30ISC |Continuous Corn with 30 inch rows and Interseeded Cover Crop|
+|CS, SM|Corn/Soy Rotation with Spring Manure|
+|CS + R|Corn/Soy Rotation with Cereal Rye Cover Crop|
+|CC + 60ISC |Continuous Corn with 60 inch rows and Interseeded Cover Crop|
+|CS, FM|Corn/Soy Rotation with Fall Manure|
 
-**Full Notebook**
+**Full Notebook**     
 [Link to Yield Analysis Jupyter Notebook](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_posts/Yield%20Analysis.ipynb)
