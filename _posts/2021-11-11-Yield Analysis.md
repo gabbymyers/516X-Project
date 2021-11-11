@@ -4,8 +4,9 @@ title: Yield Analysis
 subtitle: 2021 Yield Analysis 
 comments: true
 ---
-**The notebook for this analysis can be found here:**
-https://raw.githubusercontent.com/gabbymyers/516X-Project/master/_posts/Yield%20Analysis.ipynb
+**The notebook for this analysis can be found here:**     
+https://raw.githubusercontent.com/gabbymyers/516X-Project/master/_posts/Yield%20Analysis.ipynb      
+or  "_posts/Yield Analysis.ipynb" within the directory
 
 
 The 2021 yield data from all of the treatments is housed in an excel file called "2021 Yield". 
