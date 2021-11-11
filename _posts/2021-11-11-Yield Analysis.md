@@ -28,5 +28,4 @@ I realized it doesn't work to have all the yields on the same plots because some
 corn_only = yield_data[yield_data['Treatment'].str.contains('1C|2C|3.1|3.2|4.1|4.2|5C|6C')]
 corn_only.head()
 ~~~
-![boxplot of yield by treatment, only corn](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/_posts/corn_yield_box.png)
 
