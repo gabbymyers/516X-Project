@@ -33,8 +33,7 @@ yield_data.head()
 ax = sns.boxplot(x = "Treatment", y = "Yield (avg; bu/ac)", data = yield_data)
 plt.savefig('all_yield_box.png')
 ~~~
-
-<img src="/data/all_yield_box.png" class = "center" style="height: 500px; width:500px;"/>
+![alt_text](_data/all_yield_box.png)
 
 I realized it doesn't work to have all the yields on the same plots because some treatments are soybeans and others are corn, so yields are very different.
 
