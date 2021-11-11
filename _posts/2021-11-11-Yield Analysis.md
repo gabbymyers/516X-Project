@@ -4,7 +4,7 @@ title: Yield Analysis
 subtitle: 2021 Yield Analysis 
 comments: true
 ---
-
+**The notebook for this analysis can be found here:**
 https://raw.githubusercontent.com/gabbymyers/516X-Project/master/_posts/Yield%20Analysis.ipynb
 
 
