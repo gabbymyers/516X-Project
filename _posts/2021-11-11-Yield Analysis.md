@@ -44,7 +44,7 @@ plt.savefig('corn_yield_box.jpg', bbox_inches='tight')
 |CS + R|Corn/Soy Rotation with Cereal Rye Cover Crop|
 |CC + 60ISC |Continuous Corn with 60 inch rows and Interseeded Cover Crop|
 |CS, FM|Corn/Soy Rotation with Fall Manure|
-
+       
 ~~~
 ax = sns.boxplot(x = "Treatment", y = "Yield (avg; bu/ac)", data = soy_only, hue = 'Short Trt Description', dodge = False)
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
