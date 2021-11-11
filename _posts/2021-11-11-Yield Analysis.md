@@ -4,10 +4,7 @@ title: Yield Analysis
 subtitle: 2021 Yield Analysis 
 comments: true
 ---
-**The notebook for this analysis can be found here:**     
-https://raw.githubusercontent.com/gabbymyers/516X-Project/master/_posts/Yield%20Analysis.ipynb      
-or  "_posts/Yield Analysis.ipynb" within the directory
-
+**Link to Jupyter Notebook at the end of this post**     
 
 The 2021 yield data from all of the treatments is housed in an excel file called "2021 Yield". 
 
@@ -35,7 +32,8 @@ plt.savefig('corn_yield_box.jpg', bbox_inches='tight')
 ~~~
 ![box plot of yield by treatment, corn only](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/_posts/corn_yield_box.jpg)
 
-Legend Explanation
+**Legend Explanation** 
+
 |Code|Explanation|
 |:---|:---:|
 |CS, SUAN|Corn/Soy Rotation with Spring UAN|
