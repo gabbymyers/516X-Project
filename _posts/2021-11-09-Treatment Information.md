@@ -33,6 +33,6 @@ Each plot is 1 acre.
 **Photos of the Treatments**    
 60 inch rows, interseeded cover crops   
 Planting!     
-![Planting Interseeded Cover Crop in the 60 inch Rows](https://github.com/gabbymyers/516X-Project/blob/09446fb662ffb7254cc24014f8649a9f13012fdd/assets/img/DSC_3513.NEF.jpg)     
+![Planting Interseeded Cover Crop in the 60 inch Rows](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/DSC_3513.NEF.jpg)     
 End of season:     
-![60 inch interseeded cover crops](https://github.com/gabbymyers/516X-Project/blob/78a41edda03d71f1dccb5a8c748b6f6e4cb098eb/assets/img/DSC_4159%20(1).NEF.jpg)
+![60 inch interseeded cover crops](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/DSC_4159%20(1).NEF.jpg)
