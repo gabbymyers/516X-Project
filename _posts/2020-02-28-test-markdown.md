@@ -21,30 +21,26 @@ Here's a useless table:
 | Two | Three | One |
 
 
-**Importing the Data**
+**Importing the data**
 ~~~
 yield_data = pd.read_excel("2021 Yield.xlsx")
 yield_data.head()
 ~~~
 
-
-Here's a code chunk:
+**Visualizing the data**
 
 ~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+ax = sns.boxplot(x = "Treatment", y = "Yield (avg; bu/ac)", data = yield_data)
+plt.savefig('all_yield_box.png')
 ~~~
 
-And here is the same code with syntax highlighting:
+I realized it doesn't work to have all the yields on the same plots because some treatments are soybeans and others are corn, so yields are very different.
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
+**Subsetting the data**
+~~~
+corn_only = yield_data[yield_data['Treatment'].str.contains('1C|2C|3.1|3.2|4.1|4.2|5C|6C')]
+corn_only.head()
+~~~
 
 And here is the same code yet again but with line numbers:
 
