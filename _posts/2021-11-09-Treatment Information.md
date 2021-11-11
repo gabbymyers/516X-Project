@@ -26,6 +26,6 @@ Here's a summary of the treatments in 2021:
 
 Here's a view of how the plots are oriented:
 
-<img src="/assets/img/image.png" class = "center" style="height: 500px; width:500px;"/>
+![Plot Layout](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/image.png)
 
 Each plot is 1 acre. 
