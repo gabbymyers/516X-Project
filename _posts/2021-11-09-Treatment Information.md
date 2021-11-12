@@ -30,8 +30,9 @@ Here's a view of how the plots are oriented:
 
 Each plot is 1 acre. 
 
-**Photos of the Treatments**    
-60 inch rows, interseeded cover crops   
+## Photos of the Treatments
+
+**Treatment 4.2: 60 inch rows, interseeded cover crops**   
 
 <p align="center">
   <img alt="Planting" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/DSC_3513.NEF.jpg" width="45%">
