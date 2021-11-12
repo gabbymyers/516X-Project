@@ -30,7 +30,20 @@ Here's a view of how the plots are oriented:
 
 Each plot is 1 acre. 
 
-## Photos of the Treatments
+## Photos of the Treatments in 2021
+
+**Treatment 4.1: Perennial Groundcover**
+
+<p align="center">
+  <img alt="Planting" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/IMG_3319.jpg" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Near end of season" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/DSC_2989.jpg" width="45%">
+</p>
+
+
+
+
+
 
 **Treatment 4.2: 60 inch rows, interseeded cover crops**   
 
