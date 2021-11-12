@@ -40,6 +40,11 @@ Each plot is 1 acre.
   <img alt="Near end of season" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/DSC_4159%20(1).NEF.jpg" width="45%">
 </p>
 <p align="center">
+  <img alt="Establishinging ground cover" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/IMG_0983_(1).jpg" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Near end of season" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/IMG_0986_(1).jpg" width="45%">
+</p>
+<p align="center">
   <img alt="Establishinging ground cover" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/DSC_3794.NEF.jpg" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Near end of season" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/DSC_3877.NEF.jpg" width="45%">
