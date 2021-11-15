@@ -104,6 +104,10 @@ plt.savefig('corn_block_bar.jpg', bbox_inches='tight')
 
 I first need to test that the assumptions for ANOVA are satisfied.
 
+**Treatment Summary**
+
+![Corn Treatment Summary Stats](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/Corn_Stats.JPG)
+
 **Checking for Normality**
 
 ~~~
