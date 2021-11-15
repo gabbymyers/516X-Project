@@ -101,6 +101,21 @@ plt.savefig('corn_block_bar.jpg', bbox_inches='tight')
 
 There are two factors, block and treatment. 
 
+**Checking for Normality**
+
+~~~
+plt.hist(x='Yield', bins = 'auto', data = corn_only)
+plt.title("Corn Yields 2021")
+plt.xlabel('Yield (bu/ac)')
+plt.ylabel('Frequency')
+plt.savefig('Corn Histogram.jpg', bbox_inches='tight')
+~~~
+![Corn Yield Histogram](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/Corn%20Histogram.jpg)
+
+Not looking very normally distributed..
+
+
+
 ~~~
 corn_only = corn_only.rename(columns={"Simp. Treatment": "simple_treatment"})
 
