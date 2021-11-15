@@ -13,7 +13,9 @@ The 2021 yield data from all of the treatments is housed in an excel file called
 yield_data = pd.read_excel("2021 Yield.xlsx")
 ~~~
 
-**Visualizing the data**
+## Visualizing the data
+
+**Box Plots**
 
 ~~~
 ax = sns.boxplot(x = "Treatment", y = "Yield (avg; bu/ac)", data = yield_data)
@@ -45,6 +47,18 @@ plt.savefig('corn_yield_box.jpg', bbox_inches='tight')
 |CC + 60ISC |Continuous Corn with 60 inch rows and Interseeded Cover Crop|
 |CS, FM|Corn/Soy Rotation with Fall Manure|
 
+~~~
+ax = sns.boxplot(x = "Treatment", y = "Yield (avg; bu/ac)", data = soy_only, hue = 'Short Trt Description', dodge = False)
+plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+plt.savefig('soy_yield_box.jpg', bbox_inches='tight')
+~~~
+
+![Box plot of soy yield by treatment](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/_posts/soy_yield_box.jpg)
+
+**Bar Plots**
+
+**Corn Yield by Treatment**
+
  ~~~
 corn_means = pd.DataFrame(corn_only.groupby('Treatment')['Yield'].describe()['mean'])
 corn_means = corn_means.reset_index()
@@ -63,13 +77,27 @@ plt.savefig('corn_bar.jpg', bbox_inches='tight')
 ~~~
 
 ![Bar plot of mean corn yields](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/corn_bar.jpg)
+
+**Corn Yield by block**
 ~~~
-ax = sns.boxplot(x = "Treatment", y = "Yield (avg; bu/ac)", data = soy_only, hue = 'Short Trt Description', dodge = False)
-plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
-plt.savefig('soy_yield_box.jpg', bbox_inches='tight')
+corn_block_means = pd.DataFrame(corn_only.groupby('Block')['Yield'].describe()['mean'])
+corn_block_means = corn_block_means.reset_index()
+ax = sns.barplot(x = 'Block', y = 'mean', data = corn_block_means)
+ax.set_title('2021 Corn Yield of Blocks')
+ax.set(xlabel='Block', ylabel='Mean Yield (bu/ac)')
+
+#for annotating 
+for p in ax.patches:
+             ax.annotate("%.1f" % p.get_height(), (p.get_x() + p.get_width() / 2., p.get_height()),
+                 ha='center', va='center', fontsize=10, color='black', xytext=(0, 5),
+                 textcoords='offset points')
+        
+plt.savefig('corn_block_bar.jpg', bbox_inches='tight')
 ~~~
 
-![Box plot of soy yield by treatment](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/_posts/soy_yield_box.jpg)
+![Bar plot of mean corn yields blocks](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/corn_block_bar.jpg)
+
+
 
 **Full Notebook**     
 [Link to Yield Analysis Jupyter Notebook](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_posts/Yield%20Analysis.ipynb)
