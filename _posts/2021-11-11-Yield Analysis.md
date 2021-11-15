@@ -21,6 +21,7 @@ yield_data = pd.read_excel("2021 Yield.xlsx")
 ax = sns.boxplot(x = "Treatment", y = "Yield (avg; bu/ac)", data = yield_data)
 plt.savefig('all_yield_box.png')
 ~~~
+
 ![box plot of yield by treatment](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/_posts/all_yield_box.png)
 
 I realized it doesn't work to have all the yields on the same plots because some treatments are soybeans and others are corn, so yields are very different.
@@ -32,7 +33,9 @@ ax = sns.boxplot(x = "Treatment", y = "Yield (avg; bu/ac)", data = corn_only, hu
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
 plt.savefig('corn_yield_box.jpg', bbox_inches='tight')
 ~~~
+
 ![box plot of yield by treatment, corn only](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/_posts/corn_yield_box.jpg)
+
 
 **Legend Explanation** 
 
@@ -124,9 +127,11 @@ plt.savefig('corn_yield_probplot', bbox_inches='tight')
 Certainly not the most normally distributed, but I'm going to move along. 
 
 
-**Homogeneity of Variances**      
+**Homogeneity of Variances**    
+
 **Null**: Variances are the same across treatments       
-**Alternative**: Variances are not the same across treatments           
+**Alternative**: Variances are not the same across treatments  
+
 Following this tutorial: https://www.marsja.se/levenes-bartletts-test-of-equality-homogeneity-of-variance-in-python/     
 
 **Bartlett’s Test of Homogeneity of Variances**      
@@ -156,6 +161,7 @@ p = 0.3122358533181093
 The p-value is high, so you can assume the variances are the same.     
 
 **Levene’s Test of Equality of Variances**       
+
 This is preferred for non-normal data.      
 
 ~~~
@@ -177,7 +183,7 @@ stat, p = levene(trt1, trt2, trt31, trt32, trt41, trt42, trt5, trt6)
 print(stat, p)
 
 ~~~
-T = 0.6584854455470804     
+W = 0.6584854455470804     
 p = 0.7032800804487055    
 
 p-value is high, so you can assume the variances are the same.      
