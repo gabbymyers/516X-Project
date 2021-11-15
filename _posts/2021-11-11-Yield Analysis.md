@@ -112,7 +112,7 @@ print(aov_table)
 ~~~
 
 **Corn Yield ANOVA Table**
-![Corn Yield ANOVA Table](https://github.com/gabbymyers/516X-Project/blob/master/assets/img/corn_yield_anovatable.JPG)
+![Corn Yield ANOVA Table](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/corn_yield_anovatable.JPG)
 
 This matches what I get using SAS:
 ~~~
@@ -122,7 +122,7 @@ model Yield = Block Trt;
 random Block/test ;
 run;
 ~~~
-![Corn Yield ANOVA Table SAS](https://github.com/gabbymyers/516X-Project/blob/master/assets/img/sdfgfgd.PNG)
+![Corn Yield ANOVA Table SAS](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/sdfgfgd.PNG)
 
 
 **Full Notebook**     
