@@ -99,7 +99,7 @@ plt.savefig('corn_block_bar.jpg', bbox_inches='tight')
 
 ### ANOVA 
 
-There are two factors, block and treatment. 
+I first need to test that the assumptions for ANOVA are satisfied.
 
 **Checking for Normality**
 
@@ -114,8 +114,66 @@ plt.savefig('Corn Histogram.jpg', bbox_inches='tight')
 
 Not looking very normally distributed..
 
+**Homogeneity of Variances**
+Null: Variances are the same across treatments     
+Alternative: Variances are not the same across treatments      
+Following this tutorial: https://www.marsja.se/levenes-bartletts-test-of-equality-homogeneity-of-variance-in-python/     
+
+**Bartlett’s Test of Homogeneity of Variances**
+~~~
+from scipy.stats import bartlett
+
+# subsetting the data:
+trt1 = corn_only.query('Treatment == "1C"')['Yield']
+trt2 = corn_only.query('Treatment == "2C"')['Yield']
+trt31 = corn_only.query('Treatment == "3.1"')['Yield']
+trt32 = corn_only.query('Treatment == "3.2"')['Yield']
+trt41 = corn_only.query('Treatment == "4.1"')['Yield']
+trt42 = corn_only.query('Treatment == "4.2"')['Yield']
+trt5 = corn_only.query('Treatment == "5C"')['Yield']
+trt6 = corn_only.query('Treatment == "6C"')['Yield']
+
+# Bartlett's test in Python with SciPy:
+stat, p = bartlett(trt1, trt2, trt31, trt32, trt41, trt42, trt5, trt6)
+
+# Get the results:
+print(stat, p)
+
+~~~
+T = 8.236102945085667     
+p = 0.3122358533181093     
+
+The p-value is high, so you can assume the variances are the same.     
+
+**Levene’s Test of Equality of Variances**     
+This is preferred for non-normal data.      
+
+~~~
+from scipy.stats import levene
+
+# Create three arrays for each sample:
+trt1 = corn_only.query('Treatment == "1C"')['Yield']
+trt2 = corn_only.query('Treatment == "2C"')['Yield']
+trt31 = corn_only.query('Treatment == "3.1"')['Yield']
+trt32 = corn_only.query('Treatment == "3.2"')['Yield']
+trt41 = corn_only.query('Treatment == "4.1"')['Yield']
+trt42 = corn_only.query('Treatment == "4.2"')['Yield']
+trt5 = corn_only.query('Treatment == "5C"')['Yield']
+trt6 = corn_only.query('Treatment == "6C"')['Yield']
+
+# Levene's Test in Python with Scipy:
+stat, p = levene(trt1, trt2, trt31, trt32, trt41, trt42, trt5, trt6)
+
+print(stat, p)
+
+~~~
+T = 0.6584854455470804     
+p = 0.7032800804487055    
+
+p-value is high, so you can assume the variances are the same.      
 
 
+**ANOVA**
 ~~~
 corn_only = corn_only.rename(columns={"Simp. Treatment": "simple_treatment"})
 
