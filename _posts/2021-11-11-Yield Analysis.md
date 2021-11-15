@@ -124,6 +124,8 @@ run;
 ~~~
 ![Corn Yield ANOVA Table SAS](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/sdfgfgd.PNG)
 
+It looks like treatment definitely had an effect on corn yields in 2021 and block did not. 
+
 
 **Full Notebook**     
 [Link to Yield Analysis Jupyter Notebook](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_posts/Yield%20Analysis.ipynb)
