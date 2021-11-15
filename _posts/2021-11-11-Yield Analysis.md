@@ -114,12 +114,12 @@ plt.savefig('Corn Histogram.jpg', bbox_inches='tight')
 
 Not looking very normally distributed..
 
-**Homogeneity of Variances**
-Null: Variances are the same across treatments     
-Alternative: Variances are not the same across treatments      
+**Homogeneity of Variances**      
+Null: Variances are the same across treatments       
+Alternative: Variances are not the same across treatments           
 Following this tutorial: https://www.marsja.se/levenes-bartletts-test-of-equality-homogeneity-of-variance-in-python/     
 
-**Bartlett’s Test of Homogeneity of Variances**
+**Bartlett’s Test of Homogeneity of Variances**      
 ~~~
 from scipy.stats import bartlett
 
@@ -145,7 +145,7 @@ p = 0.3122358533181093
 
 The p-value is high, so you can assume the variances are the same.     
 
-**Levene’s Test of Equality of Variances**     
+**Levene’s Test of Equality of Variances**       
 This is preferred for non-normal data.      
 
 ~~~
