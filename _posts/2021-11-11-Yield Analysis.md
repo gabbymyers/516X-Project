@@ -44,7 +44,25 @@ plt.savefig('corn_yield_box.jpg', bbox_inches='tight')
 |CS + R|Corn/Soy Rotation with Cereal Rye Cover Crop|
 |CC + 60ISC |Continuous Corn with 60 inch rows and Interseeded Cover Crop|
 |CS, FM|Corn/Soy Rotation with Fall Manure|
-       
+
+ ~~~
+corn_means = pd.DataFrame(corn_only.groupby('Treatment')['Yield'].describe()['mean'])
+corn_means = corn_means.reset_index()
+
+ax = sns.barplot(x = 'Treatment', y = 'mean', data = corn_means)
+ax.set_title('2021 Yield of Corn Treatments')
+ax.set(xlabel='Treatment', ylabel='Mean Yield (bu/ac)')
+
+#for annotating 
+for p in ax.patches:
+             ax.annotate("%.0f" % p.get_height(), (p.get_x() + p.get_width() / 2., p.get_height()),
+                 ha='center', va='center', fontsize=10, color='black', xytext=(0, 5),
+                 textcoords='offset points')
+        
+plt.savefig('corn_bar.jpg', bbox_inches='tight')
+~~~
+
+![Bar plot of mean corn yields](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/corn_bar.jpg)
 ~~~
 ax = sns.boxplot(x = "Treatment", y = "Yield (avg; bu/ac)", data = soy_only, hue = 'Short Trt Description', dodge = False)
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
