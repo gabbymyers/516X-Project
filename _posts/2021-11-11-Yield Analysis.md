@@ -97,6 +97,32 @@ plt.savefig('corn_block_bar.jpg', bbox_inches='tight')
 
 ![Bar plot of mean corn yields blocks](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/corn_block_bar.jpg)
 
+### ANOVA 
+
+There are two factors, block and treatment. 
+
+~~~
+corn_only = corn_only.rename(columns={"Simp. Treatment": "simple_treatment"})
+
+model = ols('Yield ~ C(Block) + C(simple_treatment)', data = corn_only).fit()
+
+aov_table = sm.stats.anova_lm(model)
+
+print(aov_table)
+~~~
+
+**Corn Yield ANOVA Table**
+![Corn Yield ANOVA Table](https://github.com/gabbymyers/516X-Project/blob/master/assets/img/corn_yield_anovatable.JPG)
+
+This matches what I get using SAS:
+~~~
+proc glm data = A;
+class Block Trt;
+model Yield = Block Trt;
+random Block/test ;
+run;
+~~~
+![Corn Yield ANOVA Table SAS](https://github.com/gabbymyers/516X-Project/blob/master/assets/img/sdfgfgd.PNG)
 
 
 **Full Notebook**     
