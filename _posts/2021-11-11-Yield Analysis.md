@@ -125,8 +125,8 @@ Certainly not the most normally distributed, but I'm going to move along.
 
 
 **Homogeneity of Variances**      
-Null: Variances are the same across treatments       
-Alternative: Variances are not the same across treatments           
+**Null**: Variances are the same across treatments       
+**Alternative**: Variances are not the same across treatments           
 Following this tutorial: https://www.marsja.se/levenes-bartletts-test-of-equality-homogeneity-of-variance-in-python/     
 
 **Bartlett’s Test of Homogeneity of Variances**      
