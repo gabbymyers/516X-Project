@@ -114,6 +114,16 @@ plt.savefig('Corn Histogram.jpg', bbox_inches='tight')
 
 Not looking very normally distributed..
 
+~~~
+stats.probplot(corn_only['Yield'], dist="norm", plot=plt)
+plt.show()
+plt.savefig('corn_yield_probplot', bbox_inches='tight')
+~~~
+![Corn Yield Prob Plot](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/corn_yield_probplot.JPG)
+
+Certainly not the most normally distributed, but I'm going to move along. 
+
+
 **Homogeneity of Variances**      
 Null: Variances are the same across treatments       
 Alternative: Variances are not the same across treatments           
