@@ -8,12 +8,12 @@ Link to Jupyter Notebook at the end of this post.
 
 The 2021 yield data from all of the treatments is housed in an excel file called "2021 Yield". 
 
-**Importing the data**
+### Importing the data
 ~~~
 yield_data = pd.read_excel("2021 Yield.xlsx")
 ~~~
 
-## Visualizing the data
+### Visualizing the data
 
 **Box Plots**
 
