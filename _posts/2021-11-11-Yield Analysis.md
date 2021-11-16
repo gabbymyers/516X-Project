@@ -148,7 +148,7 @@ plt.savefig('soy_block_bar.jpg', bbox_inches='tight')
 
 
 
-### Corn ANOVA 
+## Corn ANOVA 
 
 I first need to test that the assumptions for ANOVA are satisfied.
 
@@ -264,11 +264,12 @@ aov_table = sm.stats.anova_lm(model)
 
 print(aov_table)
 ~~~
+    
 
-**Corn Yield ANOVA Table**
 ![Corn Yield ANOVA Table](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/corn_yield_anovatable.JPG)
 
 This matches what I get using SAS:    
+
 ~~~
 proc glm data = A;
 class Block Trt;
@@ -276,6 +277,7 @@ model Yield = Block Trt;
 random Block/test ;
 run;
 ~~~
+
 ![Corn Yield ANOVA Table SAS](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/sdfgfgd.PNG)
 
 It looks like treatment definitely had an effect on corn yields in 2021 and block did not.    
