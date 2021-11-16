@@ -300,9 +300,11 @@ Treatment 4.2 is different from all other treatments, which is expected because 
 
 Following the same steps as above.
 
-![Soy histogram](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/Soy%20Histogram.jpg)
-
-![Soy KDE](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_yield_kde.jpg)
+<p align="center">
+  <img alt="Soy Histogram" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/Soy%20Histogram.jpg" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Soy KDE" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_yield_kde.jpg" width="45%">
+</p>
 
 ![Soy Prob Plot](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_yield_probplot.JPG)
 
