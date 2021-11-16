@@ -194,7 +194,7 @@ Certainly not the most normally distributed, but I'm going to move along.
 **Null**: Variances are the same across treatments       
 **Alternative**: Variances are not the same across treatments  
 
-Following this tutorial: https://www.marsja.se/levenes-bartletts-test-of-equality-homogeneity-of-variance-in-python/     
+Following this tutorial: [Barletts and Levenes Tests](https://www.marsja.se/levenes-bartletts-test-of-equality-homogeneity-of-variance-in-python/)          
 
 **Bartlett’s Test of Homogeneity of Variances**      
 ~~~
@@ -300,4 +300,4 @@ Treatment 4.2 is different from all other treatments, which is expected because 
 **Full Notebook**     
 [Link to Yield Analysis Jupyter Notebook](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_posts/Yield%20Analysis.ipynb)
 
-https://github.com/gabbymyers/516X-Project/blob/master/_posts/Yield%20Analysis.ipynb 
+[In Gitub](https://github.com/gabbymyers/516X-Project/blob/master/_posts/Yield%20Analysis.ipynb)     
