@@ -329,6 +329,6 @@ print(aov_table)
 
 
 **Full Notebook**     
-[Link to Yield Analysis Jupyter Notebook](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_data/Yield%20Analysis.ipynb)    
+[nb viewer](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_data/Yield%20Analysis.ipynb)    
 
 [In Gitub](https://github.com/gabbymyers/516X-Project/blob/master/_data/Yield%20Analysis.ipynb)       
