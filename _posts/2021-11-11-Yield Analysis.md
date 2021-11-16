@@ -242,6 +242,9 @@ p-value is high, so you can assume the variances are the same.
 
 
 **ANOVA**
+
+Checking to see if treatment or block had a significant effect on corn yields in 2021. 
+
 ~~~
 corn_only = corn_only.rename(columns={"Simp. Treatment": "simple_treatment"})
 
