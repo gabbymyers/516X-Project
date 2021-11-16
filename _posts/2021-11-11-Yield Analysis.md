@@ -294,9 +294,11 @@ run;
 
 ![Corn Yield LSD](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/corn_yield_lsd.JPG)
 
-Treatment 4.2 is different from all other treatments, which is expected because of an error in the seeding chart for this treatment leading to a lower plant density than desired. The PGC treatment (4.1) was significantly different than the control (3.1), with PGC having a 12.75 bu/ac decrease from the control. The corn/soy rotations with manure applied and no cover crops yielded the best (2C and 6C). 
+* Treatment 4.2 is different from all other treatments, which is expected because of an error in the seeding chart for this treatment leading to a lower plant density than desired. 
+* The PGC treatment (4.1) was significantly different than the control (3.1), with PGC having a 12.75 bu/ac decrease from the control.
+* The corn/soy rotations with manure applied and no cover crops yielded the best (2C and 6C). 
 
-**Soy ANOVA**
+## Soy ANOVA
 
 Following the same steps as above.
 
