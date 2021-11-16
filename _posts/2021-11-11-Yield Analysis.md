@@ -296,6 +296,20 @@ run;
 
 Treatment 4.2 is different from all other treatments, which is expected because of an error in the seeding chart for this treatment leading to a lower plant density than desired. The PGC treatment (4.1) was significantly different than the control (3.1), with PGC having a 12.75 bu/ac decrease from the control. The corn/soy rotations with manure applied and no cover crops yielded the best (2C and 6C). 
 
+**Soy ANOVA**
+
+Following the same steps as above.
+
+![Soy histogram](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/Soy%20Histogram.jpg)
+
+![Soy KDE](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_yield_kde.jpg)
+
+![Soy Prob Plot](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_yield_probplot.JPG)
+
+
+
+
+
 
 **Full Notebook**     
 [Link to Yield Analysis Jupyter Notebook](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_posts/Yield%20Analysis.ipynb)
