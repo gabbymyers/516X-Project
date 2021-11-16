@@ -50,6 +50,8 @@ plt.savefig('corn_yield_box.jpg', bbox_inches='tight')
 |CC + 60ISC |Continuous Corn with 60 inch rows and Interseeded Cover Crop|
 |CS, FM|Corn/Soy Rotation with Fall Manure|
 
+**Soy**
+
 ~~~
 ax = sns.boxplot(x = "Treatment", y = "Yield (avg; bu/ac)", data = soy_only, hue = 'Short Trt Description', dodge = False)
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
@@ -57,6 +59,7 @@ plt.savefig('soy_yield_box.jpg', bbox_inches='tight')
 ~~~
 
 ![Box plot of soy yield by treatment](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/_posts/soy_yield_box.jpg)
+
 
 **Bar Plots**
 
