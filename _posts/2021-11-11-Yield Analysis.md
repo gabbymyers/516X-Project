@@ -112,7 +112,7 @@ plt.savefig('corn_block_bar.jpg', bbox_inches='tight')
 
 
 
-### ANOVA 
+### Corn ANOVA 
 
 I first need to test that the assumptions for ANOVA are satisfied.
 
