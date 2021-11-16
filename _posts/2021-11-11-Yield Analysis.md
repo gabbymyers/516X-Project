@@ -312,12 +312,23 @@ Following the same steps as above.
 
 ![Soy Prob Plot](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_yield_probplot.JPG)
 
+~~~
+
+model = ols('Yield ~ C(Block) + C(simple_treatment)', data = soy_only).fit()
+
+aov_table = sm.stats.anova_lm(model)
+
+print(aov_table)
+
+~~~
+
+![Soy ANOVA Table](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_anova_table.JPG)
 
 
 
 
 
 **Full Notebook**     
-[Link to Yield Analysis Jupyter Notebook](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_posts/Yield%20Analysis.ipynb)
+[Link to Yield Analysis Jupyter Notebook](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_data/Yield%20Analysis.ipynb)    
 
-[In Gitub](https://github.com/gabbymyers/516X-Project/blob/master/_posts/Yield%20Analysis.ipynb)     
+[In Gitub](https://github.com/gabbymyers/516X-Project/blob/master/_data/Yield%20Analysis.ipynb)       
