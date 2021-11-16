@@ -105,9 +105,45 @@ plt.savefig('corn_block_bar.jpg', bbox_inches='tight')
 
 **Soy Yield by Treatment**
 
+~~~
+soy_means = pd.DataFrame(soy_only.groupby('Treatment')['Yield'].describe()['mean'])
+soy_means = soy_means.reset_index()
+
+ax = sns.barplot(x = 'Treatment', y = 'mean', data = soy_means)
+ax.set_title('2021 Yield of Soy Treatments')
+ax.set(xlabel='Treatment', ylabel='Mean Yield (bu/ac)')
+
+#for annotating 
+for p in ax.patches:
+             ax.annotate("%.0f" % p.get_height(), (p.get_x() + p.get_width() / 2., p.get_height()),
+                 ha='center', va='center', fontsize=10, color='black', xytext=(0, 5),
+                 textcoords='offset points')
+        
+plt.savefig('soy_bar.jpg', bbox_inches='tight')
+~~~
+
 ![Bar plot of mean soy yields by trt](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_bar.jpg)
 
+
 **Soy Yield by Block**
+
+~~~
+soy_block_means = pd.DataFrame(soy_only.groupby('Block')['Yield'].describe()['mean'])
+soy_block_means = soy_block_means.reset_index()
+
+ax = sns.barplot(x = 'Block', y = 'mean', data = soy_block_means)
+ax.set_title('2021 Soy Yield of Blocks')
+ax.set(xlabel='Block', ylabel='Mean Yield (bu/ac)')
+
+#for annotating 
+for p in ax.patches:
+             ax.annotate("%.1f" % p.get_height(), (p.get_x() + p.get_width() / 2., p.get_height()),
+                 ha='center', va='center', fontsize=10, color='black', xytext=(0, 5),
+                 textcoords='offset points')
+        
+plt.savefig('soy_block_bar.jpg', bbox_inches='tight')
+~~~
+
 ![Bar plot of mean soy yields by block](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_block_bar.jpg)
 
 
