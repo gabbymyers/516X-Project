@@ -331,8 +331,8 @@ print(aov_table)
 
 ![Soy LSD](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_lsd.JPG)
 
-* Again, the treatments with no cover crops yielded the best (6S and 2S). 
-* The cereal rye treatment saw an approximately 2 bu/ac decrease in soy yield
+* Again, the treatments with no cover crops yielded the best (6S and 2S)
+* The cereal rye treatment (5S) saw an approximately 3 bu/ac decrease in soy yield
 
 **Full Notebook**     
 [nb viewer](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_data/Yield%20Analysis.ipynb)    
