@@ -325,8 +325,14 @@ print(aov_table)
 ![Soy ANOVA Table](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_anova_table.JPG)
 
 
+**In SAS**
 
+![Soy Anova SAS](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_sas_anova.JPG)
 
+![Soy LSD](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_lsd.JPG)
+
+* Again, the treatments with no cover crops yielded the best (6S and 2S). 
+* The cereal rye treatment saw an approximately 2 bu/ac decrease in soy yield
 
 **Full Notebook**     
 [nb viewer](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_data/Yield%20Analysis.ipynb)    
