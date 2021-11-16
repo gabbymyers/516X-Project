@@ -167,7 +167,7 @@ plt.savefig('Corn Histogram.jpg', bbox_inches='tight')
 ~~~
 ![Corn Yield Histogram](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/Corn%20Histogram.jpg)
 
-Not looking very normally distributed. A histogram might not be the best way to see it. I'll make a kernel density plot ([Link to Doumentation](https://seaborn.pydata.org/generated/seaborn.kdeplot.html)) to look at it another way. 
+Not looking very normally distributed. A histogram might not be the best way to see it. I'll make a kernel density estimate plot ([Link to Doumentation](https://seaborn.pydata.org/generated/seaborn.kdeplot.html)) to look at it another way. 
 
 ~~~
 sns.kdeplot(data=corn_only, x="Yield")
