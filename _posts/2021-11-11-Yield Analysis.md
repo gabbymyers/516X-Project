@@ -103,6 +103,15 @@ plt.savefig('corn_block_bar.jpg', bbox_inches='tight')
 
 ![Bar plot of mean corn yields blocks](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/corn_block_bar.jpg)
 
+**Soy Yield by Treatment**
+
+![Bar plot of mean soy yields by trt](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_bar.jpg)
+
+**Soy Yield by Block**
+![Bar plot of mean soy yields by block](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soy_block_bar.jpg)
+
+
+
 ### ANOVA 
 
 I first need to test that the assumptions for ANOVA are satisfied.
