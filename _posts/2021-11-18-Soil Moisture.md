@@ -54,7 +54,7 @@ ax = sns.boxplot(x = "Date", y = "MC", data = soil_moisture)
 plt.savefig('date_bc_box.jpg', bbox_inches='tight')
 ~~~
 
-I wrote a function to make box plots for each date, but won't incldude them on this post. You can see them in the jupyter notebook here [Link](https://github.com/gabbymyers/516X-Project/blob/master/_data/Soil%20Moisture%20Analysis.ipynb)
+I wrote a function to make box plots for each date, but won't incldude them on this post. You can see them in the jupyter notebook here: [Link](https://github.com/gabbymyers/516X-Project/blob/master/_data/Soil%20Moisture%20Analysis.ipynb)
 
 ~~~
 def filterbydate (sampledate):
@@ -71,3 +71,25 @@ while sample_date <= max(soil_moisture.Date):
     sample_date = sample_date + 1
 ~~~
 
+### ANOVA
+
+Seeing if block, sample date, or treatment had a significant effect on soil moisture content. I have a feeling that date will have a significant effect because the soil moisture content is very dependent on the weather of the days surrounding when we got the sample. I hope to see that block did not have an effect. I'm not sure what we will see from treatment, but some people believe that cover crop would make the soil drier because they are using any excess moisture. 
+
+**Checking for normality**
+~~~
+sns.kdeplot(data=soil_moisture, x="MC")
+plt.title('Soil Moisture Kernel Density Plot')
+plt.savefig('soil_moisture_kde.jpg', bbox_inches='tight')
+
+import scipy.stats as stats
+stats.probplot(soil_moisture['MC'], dist="norm", plot=plt)
+plt.show()
+plt.savefig('soil_moisture_probplot', bbox_inches='tight')
+
+~~~
+
+<p align="center">
+  <img alt="MC kde" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/soil_moisture_kde.jpg" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="MC QQ Plot" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/mc_probplot.JPG" width="45%">
+</p>
