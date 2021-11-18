@@ -9,11 +9,18 @@ Soil samples were collected roughly every 2 weeks to get 12 soil samples.
 
 ### Data Visualizations
 
-!["Treatment Bar](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/MC_bar_trt.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/MC_bar_trt.jpg" />
+</p>
 
-![Date Bar](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/MC_bar_date.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/MC_bar_date.jpg" />
+</p>
 
-![Block Bar](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/MC_bar_block.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/MC_bar_block.jpg" />
+</p>
+
 
 
 **Sample code**
