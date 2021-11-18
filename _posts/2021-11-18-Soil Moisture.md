@@ -93,3 +93,24 @@ plt.savefig('soil_moisture_probplot', bbox_inches='tight')
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="MC QQ Plot" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/mc_probplot.JPG" width="45%">
 </p>
+
+The data as a whole looks mostly normal, but I need to check for normality within my groups. I found a package called pingouin ([Documentation](https://pingouin-stats.org/api.html)) that has a easy function to check for normality. 
+
+~~~
+pip install pingouin
+import pingouin as pg
+pg.normality(soil_moisture, group='Treatment', dv='MC')
+pg.normality(soil_moisture, group='Date', dv='MC')
+pg.normality(soil_moisture, group='Block', dv='MC')
+~~~
+
+
+<p align="center">
+  <img alt="Treatment Normality Check" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/trt_mc_norm.JPG" width="30%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Date Normality Check" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/date_mc_norm.JPG.jpg" width="30%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Block Normality Check" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/block_mc_norm.JPG.jpg" width="30%">
+</p>
+
+
