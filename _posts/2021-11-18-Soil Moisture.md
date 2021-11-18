@@ -2,6 +2,7 @@
 layout: post
 title: Soil Moisture Content Analysis
 subtitle: 2021 Soil Moisture 
+thumbnail: https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/MC_bar_trt.jpg
 comments: true
 ---
 
