@@ -104,13 +104,16 @@ pg.normality(soil_moisture, group='Date', dv='MC')
 pg.normality(soil_moisture, group='Block', dv='MC')
 ~~~
 
+**Treatment**             
 
-<p align="center">
-  <img alt="Treatment Normality Check" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/trt_mc_norm.JPG" width="30%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Date Normality Check" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/date_mc_norm.JPG" width="30%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Block Normality Check" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/block_mc_norm.JPG" width="30%">
-</p>
+![Treatment Norm Check](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/trt_mc_norm.JPG)
+
+**Date**            
+
+![Date Norm Check](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/date_mc_norm.JPG)
+
+**Block**              
+
+![Block Norm Check](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/block_mc_norm.JPG)
 
 
