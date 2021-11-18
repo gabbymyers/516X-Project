@@ -116,4 +116,12 @@ pg.normality(soil_moisture, group='Block', dv='MC')
 
 ![Block Norm Check](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/block_mc_norm.JPG)
 
+Not all groups are normally distributed. 
 
+**Bartlett’s Test of Homogeneity of Variances**
+
+Using a package in pingouin to do the test for date, block, and treatment. 
+
+![Bartletts Test Moisture Content](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/bartletts_mc.JPG)
+
+The date variable does not have equal variances. 
