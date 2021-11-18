@@ -16,3 +16,9 @@ Soil samples were collected roughly every 2 weeks to get 12 soil samples.
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Block Bar" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/MC_bar_block.jpg" width="30%">
 </p>
+
+<p align="center">
+  <img alt="Treatment Box" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/trt_mc_box.jpg.jpg" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Date Box" src="https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/date_bc_box.jpg" width="45%">
+</p>
