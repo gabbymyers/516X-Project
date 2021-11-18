@@ -54,5 +54,20 @@ ax = sns.boxplot(x = "Date", y = "MC", data = soil_moisture)
 plt.savefig('date_bc_box.jpg', bbox_inches='tight')
 ~~~
 
+I wrote a function to make box plots for each date, but won't incldude them on this post. You can see them in the jupyter notebook here [Link](https://github.com/gabbymyers/516X-Project/blob/master/_data/Soil%20Moisture%20Analysis.ipynb)
 
+~~~
+def filterbydate (sampledate):
+    sample_date_df = pd.DataFrame(soil_moisture[soil_moisture.Date == sampledate])
+    return sample_date_df
+
+sample_date = 1 
+while sample_date <= max(soil_moisture.Date):
+    date_df = filterbydate(sample_date)
+    date_df.boxplot('MC', by = 'Treatment')
+    plt.title('Moisture Content by Trt on Date {}'.format(sample_date))
+    plt.suptitle("")
+    plt.ylabel("Moisture Content, DB")
+    sample_date = sample_date + 1
+~~~
 
