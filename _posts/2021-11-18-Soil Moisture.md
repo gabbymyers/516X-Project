@@ -158,6 +158,6 @@ ods output infocrit=csh;
 run;
 ~~~
 
-![SAS Output] https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/csh_results.JPG
+![SAS Output]( https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/csh_results.JPG)
 
-These results tell me that treatment, date, and the interaction between treatment and date ae significant. 
+The results of the Null Model Likelihood Ratio Test tell me that using a repeated measures analysis is necessary. The information criteria are useful for comparing model structres, which I did and selected the csh structure after comparing. The type 3 tests of fixed effects results tell me that treatment, date, and the interaction between treatment and date are significant. 
