@@ -161,3 +161,5 @@ run;
 ![SAS Output]( https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/csh_results.JPG)
 
 The results of the Null Model Likelihood Ratio Test tell me that using a repeated measures analysis is necessary. The information criteria are useful for comparing model structres, which I did and selected the csh structure after comparing. The type 3 tests of fixed effects results tell me that treatment, date, and the interaction between treatment and date are significant. More info on the ouput [here](https://v8doc.sas.com/sashtml/stat/chap41/sect25.htm).
+
+To answer my **research question**, yes, treatment had an effect on social moisture content. 
