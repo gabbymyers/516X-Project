@@ -89,6 +89,8 @@ while sample_date <= max(soil_moisture.Date):
 
 Seeing if block, sample date, or treatment had a significant effect on soil moisture content. I have a feeling that date will have a significant effect because the soil moisture content is very dependent on the weather of the days surrounding when we got the sample. I hope to see that block did not have an effect. I'm not sure what we will see from treatment, but some people believe that cover crop would make the soil drier because they are using any excess moisture. 
 
+Because we measured soil moisture multiple times throughout the season on the same plots, this is a time to use repeated measures anova. 
+
 **Checking for normality**
 ~~~
 sns.kdeplot(data=soil_moisture, x="MC")
