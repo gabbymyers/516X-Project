@@ -141,3 +141,23 @@ Using a function in pingouin to do the test for date, block, and treatment.
 ![Bartletts Test Moisture Content](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/bartletts_mc.JPG)
 
 The date variable does not have equal variances. 
+
+I attempted to use a repeated measures ANOVA function in python:
+~~~
+from statsmodels.stats.anova import AnovaRM
+~~~
+
+I did not have luck using AnovaRM, so I used the mixed procedure in SAS to evaluate the effects. The most powerful covariance structure for the model I found was the hetereogenous compound symmetry (csh in SAS) structure. It had the lowest AIC and BIC values for the models I considered.  
+
+~~~
+proc mixed data=A IC;
+class Block Trt Date;
+  model MC = Block Trt Date Trt*Date /ddfm =satterth;
+  repeated Date / subject=Trt*Block type=csh r rcorr;
+ods output infocrit=csh;
+run;
+~~~
+
+![SAS Output] https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/csh_results.JPG
+
+These results tell me that treatment, date, and the interaction between treatment and date ae significant. 
