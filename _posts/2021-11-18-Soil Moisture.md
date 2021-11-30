@@ -163,3 +163,11 @@ run;
 The results of the Null Model Likelihood Ratio Test tell me that using a repeated measures analysis is necessary. The information criteria are useful for comparing model structres, which I did and selected the csh structure after comparing. The type 3 tests of fixed effects results tell me that treatment, date, and the interaction between treatment and date are significant. More info on the ouput [here](https://v8doc.sas.com/sashtml/stat/chap41/sect25.htm).
 
 To answer my **research question**, yes, treatment had an effect on social moisture content. 
+
+I did a mean comparison of the treatments by adding:
+
+~~~
+lsmeans Trt / pdiff
+~~~
+
+to my proc mixed. It showed that the control (3.1) was drier than 3.2 (interseeded cover crops in 30 inch rows). The control was also drier than 5S and 6S, but that is not as interesting to me because the control was continuous corn so comparing to soybean treatments is not very useful. PGC was drier than 6S, but again I do not find that comparison very useful. 5C and 6S were also significantly different. 2S ansd 6S were significantly different and the only difference between those treatment was manure timing (but the 6S and 2S plots aren't in corn this year, so this is not very relevant). 
