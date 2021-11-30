@@ -7,7 +7,13 @@ thumbnail-img: /assets/img/MC_bar_trt.jpg
 comments: true
 ---
 
-Soil samples were collected roughly every 2 weeks to get 12 soil samples.
+Soil moisture content refers to the moisture in the soil. We determine this by collecting a sample from each of our 36 plots at the Northeast Iowa Research Farm. The sample is taken back to the lab and the moisture content is determined by weighing the soil before and after drying. Soil samples were collected roughly every 2 weeks to get 12 soil samples for each plot. 
+
+## Research Question     
+
+Does treatment have an effect on the soil moisture content?     
+
+More specifically, does the PGC system have the same, higher, or lower soil moisture content than our other treatments?
 
 ### Data Visualizations
 
