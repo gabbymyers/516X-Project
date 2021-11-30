@@ -147,7 +147,7 @@ I attempted to use a repeated measures ANOVA function in python:
 from statsmodels.stats.anova import AnovaRM
 ~~~
 
-I did not have luck using AnovaRM, so I used the mixed procedure in SAS to evaluate the effects. The most powerful covariance structure for the model I found was the hetereogenous compound symmetry (csh in SAS) structure. It had the lowest AIC and BIC values for the models I considered.  
+I did not have luck using AnovaRM, so I used the mixed procedure in SAS to evaluate the effects because I have used it before and can get help from one of my committee members if I use SAS in my analysis. The most powerful covariance structure for the model I found was the hetereogenous compound symmetry (csh in SAS) structure. It had the lowest AIC and BIC values for the models I considered.  
 
 ~~~
 proc mixed data=A IC;
@@ -160,4 +160,4 @@ run;
 
 ![SAS Output]( https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/csh_results.JPG)
 
-The results of the Null Model Likelihood Ratio Test tell me that using a repeated measures analysis is necessary. The information criteria are useful for comparing model structres, which I did and selected the csh structure after comparing. The type 3 tests of fixed effects results tell me that treatment, date, and the interaction between treatment and date are significant. 
+The results of the Null Model Likelihood Ratio Test tell me that using a repeated measures analysis is necessary. The information criteria are useful for comparing model structres, which I did and selected the csh structure after comparing. The type 3 tests of fixed effects results tell me that treatment, date, and the interaction between treatment and date are significant. More info on the ouput [here](https://v8doc.sas.com/sashtml/stat/chap41/sect25.htm).
