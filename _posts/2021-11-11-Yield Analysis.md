@@ -7,6 +7,11 @@ comments: true
 Link to Jupyter Notebook at the end of this post.   
 
 The 2021 yield data from all of the treatments is housed in an excel file called "2021 Yield". 
+### Research Question 
+
+Did treatment have a significant effect on yield in 2021?
+
+If so, how did the different treatments compare?
 
 ### Importing the data
 ~~~
@@ -333,6 +338,12 @@ print(aov_table)
 
 * Again, the treatments with no cover crops yielded the best (6S and 2S)
 * The cereal rye treatment (5S) saw an approximately 3 bu/ac decrease in soy yield
+
+### Discussion
+In 2021, we saw no effect from block and a significant effect from treatment in both corn and soybeans. The 60 inch rows + interseeded cover crop treatment (4.2) was signifcantly different than all other treatments. This is probably due to the seeding rate error that led to a lower plant density than desired. The PGC treatment had a 12.75 bu/ac decrease in yield compared to the control. The treatments with no cover crops and manure applied yielded the best. Corn had an average price of $5.55/ bu in 2021 ([Source](https://www.extension.iastate.edu/agdm/crops/pdf/a2-11.pdf)), so the PGC treatment would correspond to over $70 lost per acre.
+
+For the soybean treatments, we again saw that the treatments with no cover crops had the best yields. The cereal rye treatment had a 3 bu/ac ($40/ac) decrease in yield.
+
 
 **Full Notebook**     
 [nb viewer](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_data/Yield%20Analysis.ipynb)    
