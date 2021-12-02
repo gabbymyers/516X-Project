@@ -7,6 +7,7 @@ comments: true
 Link to Jupyter Notebook at the end of this post.   
 
 The 2021 yield data from all of the treatments is housed in an excel file called "2021 Yield". 
+
 ### Research Question 
 
 Did treatment have a significant effect on yield in 2021?
@@ -17,6 +18,11 @@ If so, how did the different treatments compare?
 ~~~
 yield_data = pd.read_excel("2021 Yield.xlsx")
 ~~~
+The data looks like this:
+
+![yield data](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/Yield_Data.JPG)
+
+I organized this data pretty well from the beginning, so there isn't much need for changes to its structure. 
 
 ### Visualizing the data
 
