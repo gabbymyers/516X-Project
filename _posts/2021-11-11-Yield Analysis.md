@@ -22,7 +22,7 @@ The data looks like this:
 
 ![yield data](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/Yield_Data.JPG)
 
-I organized this data pretty well from the beginning, so there isn't much need for changes to its structure. 
+I organized this data in a format that makes it easy for me to use from the beginning, so there isn't much need for changes to its structure. 
 
 ### Visualizing the data
 
