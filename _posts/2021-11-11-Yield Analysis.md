@@ -18,6 +18,12 @@ If so, how did the different treatments compare?
 
 Our team is interested in studying the effects of perennial groundcover implementation on water quality. However, even if perennial groundcover had an amazing effect on water quality and drastically decreased nutrient export, it would not gain traction with farmers it lead to reduced yields. Therefore, we also need to understand how perennial groundcover effects yield compared to conventional corn and other cover crop systems. 
 
+### Project Workflow 
+
+![Workflow](https://raw.githubusercontent.com/gabbymyers/516X-Project/master/assets/img/workflow.PNG)
+
+In this post, we are exploring the effects of treatment on 2021 yield.    
+
 ### Importing the data
 ~~~
 yield_data = pd.read_excel("2021 Yield.xlsx")
@@ -356,7 +362,7 @@ For the soybean treatments, we again saw that the treatments with no cover crops
 
 To do this analysis, I used data wrangling techniques to subset corn and soybean data into two different data frames and rename the columns of my data frames into more concise and usable names. I used the seaborn and matplotlib packages to visualize the data. I was able to follow online tutorials to utilize scipy stats packages to test ANOVA assumptions and complete the analysis. 
 
-This analysis attains the FAIR principles because the data is fully available on my github repository. The code for making all of the figures, implementing the models, and exploring the data is also fully available, making the analysis reproducible for anyone interested. 
+This analysis attains the FAIR principles because the data is fully available on my github repository. The code for making all of the figures, implementing the models, and exploring the data is also fully available, making the analysis reproducible for anyone interested. The data is organized in a way that does not require a lot of extra processing before analyzing it, so it should be interoperable between different computer programs. 
 
 **Full Notebook**     
 [nb viewer](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_data/Yield%20Analysis.ipynb)    
