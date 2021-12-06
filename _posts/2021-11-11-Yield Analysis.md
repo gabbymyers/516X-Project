@@ -14,6 +14,10 @@ Did treatment have a significant effect on yield in 2021?
 
 If so, how did the different treatments compare?
 
+*Why does this matter?*   
+
+Our team is interested in studying the effects of perennial groundcover implementation on water quality. However, even if perennial groundcover had an amazing effect on water quality and drastically decreased nutrient export, it would not gain traction with farmers it lead to reduced yields. Therefore, we also need to understand how perennial groundcover effects yield compared to conventional corn and other cover crop systems. 
+
 ### Importing the data
 ~~~
 yield_data = pd.read_excel("2021 Yield.xlsx")
@@ -161,7 +165,7 @@ plt.savefig('soy_block_bar.jpg', bbox_inches='tight')
 
 ## Corn ANOVA 
 
-I first need to test that the assumptions for ANOVA are satisfied.
+I first need to test that the assumptions for ANOVA, independence, normality, and homogeneity of variance, are satisfied.
 
 **Treatment Summary**
 
@@ -350,6 +354,9 @@ In 2021, we saw no effect from block and a significant effect from treatment in 
 
 For the soybean treatments, we again saw that the treatments with no cover crops had the best yields. The cereal rye treatment had a 3 bu/ac ($40/ac) decrease in yield.
 
+To do this analysis, I used data wrangling techniques to subset corn and soybean data into two different data frames and rename the columns of my data frames into more concise and usable names. I used the seaborn and matplotlib packages to visualize the data. I was able to follow online tutorials to utilize scipy stats packages to test ANOVA assumptions and complete the analysis. 
+
+This analysis attains the FAIR principles because the data is fully available on my github repository. The code for making all of the figures, implementing the models, and exploring the data is also fully available, making the analysis reproducible for anyone interested. 
 
 **Full Notebook**     
 [nb viewer](https://nbviewer.org/github/gabbymyers/516X-Project/blob/master/_data/Yield%20Analysis.ipynb)    
