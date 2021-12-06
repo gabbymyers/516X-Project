@@ -2,6 +2,7 @@
 layout: post
 title: Class Exercise
 subtitle: Linear regression exercise
+thumbnail-img: /assets/img/download.png
 comments: true
 ---
 
